@@ -1,0 +1,21 @@
+		Ler dois valores ex: A e B, e efetuar as trocas dos valores de forma que a variável A passe a possuir o valor da
+		variável B e a variável B passe a possuir o valor da variável A. Exibir o resultado final
+
+programa
+	{
+	funcao inicio()
+		{	
+	
+		cadeia vA, vB, aux
+		
+		inicio 
+		escreva("escreva dois valores A e B nesta ordem:")
+		leia(vA, vB)
+		
+		//troca usando variavel auxiliar
+		aux=vA
+		vA=vB
+		vB=aux
+		escreva("apos a troca A=", vA," B=", vB)
+		fim
+		}

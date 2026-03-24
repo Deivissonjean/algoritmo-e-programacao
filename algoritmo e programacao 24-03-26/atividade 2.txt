@@ -1,0 +1,20 @@
+//Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.A fórmula de conversão é: F=(9*C+160) / 5, sendo F a //temperatura em Fahrenheit e C atemperatura em Celsius.
+
+
+[algoritmo "atv 2 "
+
+
+var
+F, C : REAL
+
+
+inicio
+escreva("digite uma temperatura em Celsius: ");
+
+leia (C)
+
+F <-(9*C+160) / 5
+
+
+fimalgoritmo
+]

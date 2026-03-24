@@ -1,0 +1,25 @@
+		Leia: o nome de um vendedor, o seu salário fixo, o valor total de vendas dele no mês e calcule 15% de comissão das vendas.
+		Exibir no final o nome, o salário fixo e salário total mais comissão
+
+programa
+	{
+	inicio funcao()
+		{
+		
+		cadeia nome
+		real SF, VV, ST
+		
+		inicio
+		escreva("Escreva o  nome do vendedor:")
+		leia(nome)
+		escreva("Salario fixo do vendedor", nome, ":")
+		leia(SF)
+		escreva("Total de vendas no mês do vendedor", nome, ":")
+		leia(VV)
+
+		ST=(VV*0.15)+SF
+		
+		escreva("O vendedor", nome,"tem o salario fixo de:", SF,", mas seu salario total é de:",ST)
+		fim
+		}
+		
